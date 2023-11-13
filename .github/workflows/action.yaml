@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build: ubutu-latest
+  build: ubuntu-latest
   steps:
     - name: Check out code
       uses: actions/checkout@v2
